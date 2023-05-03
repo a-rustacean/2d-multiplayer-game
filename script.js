@@ -19,7 +19,7 @@ var map = document.querySelector(".map");
 const db = getDatabase(app);
 const auth = getAuth(app);
 let playerUid, playerRef;
-const players = {};
+let players = {};
 
 function randomFromArray(array) {
   return array[Math.floor(Math.random() * array.length)];
